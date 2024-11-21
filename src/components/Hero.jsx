@@ -23,9 +23,9 @@ const Hero = () => {
       <div className="container relative" ref={parallaxref}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Explore the Possibilities{" "}
+            Lorem ipsum is a dummy text
             <span className="inline-block relative">
-              New Wave{" "}
+              Lorem Ipsum{" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
@@ -54,9 +54,9 @@ const Hero = () => {
                   src={robot}
                   alt="AI"
                 />
-                <ScrollParallax isAbsolutelyPositioned>
-                  <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
 
+                <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
+                <ScrollParallax>
                   <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
                     {heroIcons.map((icon, index) => (
                       <li className="p-5" key={index}>

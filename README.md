@@ -659,4 +659,4 @@ export default {
 
 </details>
 
-![alt text](https://github.com/pingmeorayush/spa-layout-01/blob/main/spa-layout-02.png)
+![alt text](https://github.com/pingmeorayush/spa-layout-02/blob/main/spa-layout-02.png)
